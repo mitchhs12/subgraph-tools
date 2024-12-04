@@ -1,0 +1,17 @@
+Upgrade Indexer Allocation Status
+APP  8:30 PM
+-----
+Subgraphs With Blocks Behind
+Pancakeswap V3 BNB(QmZQ2rF1Fsqbo3VbEpMBoB7hitCTGdYqn2CMB4bb3kkEyS): 1319
+gamma-hp-stellaswap-moonbeam(QmQUcgK4jKrtmsEX3eC5f3jVdMXH35fpkQbm9oEEBBmx64): 3771
+Graph Monitoring Arb Sepolia(QmbA6g4FkbZRjotChiJn8MMh4Difnp777zyaniL3Yvanx1): 86647
+
+
+
+
+NEW
+
+8:30
+-----
+Subgraphs With Blocks Behind
+Balancer BNBChain V2(QmV6FcVXfYaDFkpigGa7rK9kFQZSWJF1crAJrpT1Hv2yLH): 5345

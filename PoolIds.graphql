@@ -1,0 +1,34 @@
+fragment PoolIdsFragment on Pool {
+  id
+  apiVersion
+  chainId
+  lookback
+  feeAIn
+  feeBIn
+  fee
+  feeB
+  binCounter
+  lowerTick
+  activeTick
+  numberOfBins
+  tickSpacing
+  timestamp
+  kinds
+  tokenA {
+    ...TokenFragment
+  }
+  tokenB {
+    ...TokenFragment
+  }
+  tokenAAddress
+  tokenBAddress
+}
+
+query AllPoolIds {
+  _meta {
+    ...MetaFragment
+  }
+  pools(first: 5000, where: { kinds_lte: "15" }) {
+    ...PoolIdsFragment
+  }
+}
